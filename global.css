@@ -1,0 +1,67 @@
+:root {
+  --main-color: #ffffff;
+  --dark-color: #000000;
+  --brown-color: #D3B88C;
+  --dark-brown-color: #60584b;
+  --grey-color: #9B9B9B;
+}
+
+:root {
+  --body-font: "Montserrat", sans-serif;
+  --navbar-logo: 1.5rem;
+  --navbar-item: 1rem;
+  --h2-font-size: 2rem;
+  --normal-font-size: 0.938rem;
+}
+
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+:root {
+  --montsserrat-font: "Montserrat", sans-serif;
+  --nunito-font: "Nunito", sans-serif;
+  --roboto-font: "Roboto", sans-serif;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
